@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Recherhe",
+    "line": 1,
+    "id": "recherhe",
+    "tags": [],
+    "uri": "Recherech.feature",
+    "elements": [
+      {
+        "id": "recherhe;recherche",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Recherche",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "navigate to foncia",
+            "result": {
+              "status": "passed",
+              "duration": 6136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "Search apprtement",
+            "result": {
+              "status": "passed",
+              "duration": 5572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "verification of search page for apprtement in 'PARIS'",
+            "result": {
+              "status": "passed",
+              "duration": 7782000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
